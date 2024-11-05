@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to my page</title>
+     <style>
+     h1{
+        color:blueviolet
+     }
+     </style>
+</head>
+<body>
+    {% if name %}
+    <h1>{{name}}저의 홈페이지에 오신걸 환영합니다</h1>
+     {% else %}
+     <h1>홈페이지에 오신걸 환영합니다</h1>
+     (% endif %)
+</body>
+</html>
